@@ -1,0 +1,29 @@
+.sidebar {
+    width: 200px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .account {
+    margin-bottom: 20px;
+  }
+  
+  .account h2,
+  .buy-now h2,
+  .faq h2,
+  .contact-us h2,
+  .how-to-use h2,
+  .about-us  h2 {
+    margin-top: 0;
+  }
+  
+  .account ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .account li {
+    margin-bottom: 10px;
+  }
+  

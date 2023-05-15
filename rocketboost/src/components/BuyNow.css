@@ -1,0 +1,27 @@
+.buy-now {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .buy-now label,
+  .buy-now input,
+  .buy-now textarea,
+  .buy-now button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .buy-now button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .buy-now button:hover {
+    background-color: #3e8e41;
+  }
+  
