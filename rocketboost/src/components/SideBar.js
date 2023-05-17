@@ -1,25 +1,15 @@
 import React from 'react';
-import Account from './Account';
-import BuyNow from './BuyNow';
-import FAQ from './FAQ';
-import ContactUs from './ContactUs';
-import HowToUse from './HowToUse';
-import AboutUs from './AboutUs';
-import './Sidebar.css';
 
-function Sidebar() {
+const SideBar = () => {
   return (
     <div className="sidebar">
-      <Account />
-      <BuyNow />
-      <FAQ />
-      <ContactUs />
-      <HowToUse />
-      <AboutUs />
+      <ul>
+        <li>Dashboard</li>
+        <li>Servers</li>
+        <li>Settings</li>
+      </ul>
     </div>
   );
-}
+};
 
-export default Sidebar;
-MainContent.js
-
+export default SideBar;

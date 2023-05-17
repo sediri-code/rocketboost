@@ -1,34 +1,14 @@
 .App {
   display: flex;
-  flex-direction: row;
 }
 
 .sidebar {
-  width: 300px;
-  background-color: #f2f2f2;
+  width: 200px;
+  background-color: #f0f0f0;
   padding: 20px;
 }
 
 .main-content {
-  flex-grow: 1;
+  flex: 1;
   padding: 20px;
 }
-
-.account-section,
-.buy-now-section,
-.faq-section,
-.contact-us-section,
-.how-to-use-section,
-.about-us-section {
-  margin-bottom: 20px;
-}
-
-.account-section h2,
-.buy-now-section h2,
-.faq-section h2,
-.contact-us-section h2,
-.how-to-use-section h2,
-.about-us-section h2 {
-  margin-top: 0;
-}
-
